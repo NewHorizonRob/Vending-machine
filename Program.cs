@@ -10,9 +10,11 @@ namespace Ch4_Vending
     {
         static void Main(string[] args)
         {
-            VendingMachine blah;
-            blah = new VendingMachine();
-
+            VendingMachine blah = new VendingMachine(); #initializes an instance from the VendingMachine Class
+            
+            #each one of these statements are method the method from the VendingMachine Class 
+            #they either add change for the drink, gets refund from the machine, or gets the drink 
+             
             blah.DepositCoin(25);
             blah.DepositCoin(25);
             blah.DepositCoin(10);
